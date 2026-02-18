@@ -2,20 +2,21 @@
   "name": "Clamason Risk Assessment",
   "short_name": "Risk Assessment",
   "description": "Clamason Electrical Maintenance Risk Assessment Checklist",
-  "start_url": "/",
+  "start_url": "/electrical-maintenance-risk-assessment/",
+  "scope": "/electrical-maintenance-risk-assessment/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#263d4f",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "/electrical-maintenance-risk-assessment/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icon-512.png",
+      "src": "/electrical-maintenance-risk-assessment/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

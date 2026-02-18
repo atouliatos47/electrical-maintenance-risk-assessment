@@ -1,5 +1,12 @@
 const CACHE = 'clamason-ra-v1';
-const ASSETS = ['/', '/index.html', '/manifest.json', '/icon-192.png', '/icon-512.png'];
+const BASE = '/electrical-maintenance-risk-assessment';
+const ASSETS = [
+  `${BASE}/`,
+  `${BASE}/index.html`,
+  `${BASE}/manifest.json`,
+  `${BASE}/icon-192.png`,
+  `${BASE}/icon-512.png`
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(
